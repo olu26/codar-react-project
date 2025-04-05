@@ -39,15 +39,7 @@ const BlogsDetails = () => {
                 </div>
                
             </section>
-     {/* <section className="bloggerdetails-component">
-                <div className="bloggerdetails-container"  >
-
-              
-                    <h1>BlogDetails</h1>
-                   
-                </div>
-                <div className="bloggerdetails-image"></div>
-            </section> */}
+  
 
 
                <section className='myblogdetailspage-section'>

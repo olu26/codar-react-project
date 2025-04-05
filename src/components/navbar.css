@@ -162,8 +162,8 @@
       display: block;
       font-size: 30px;
       position: relative;
-      right:30px
-
+      right:30px;
+      font-size: 20px;
     } 
   /* .alllink{
     width: 100%;
@@ -194,5 +194,8 @@
     .navbar-cancel{
       position: relative;
       display: block;
+    }
+    .header-title img{
+      width:150px
     }
 } 

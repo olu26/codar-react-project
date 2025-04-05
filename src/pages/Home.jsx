@@ -141,7 +141,7 @@ const Home = () => {
                 <>
                 <div key={id} className='cutting2-content-list' >
          <p>{text}</p>
-         <div className='cutting2-price'>From <span className='cutting2-price'>${price}</span></div>
+         <div className='cutting2-price'>From <span className=''>${price}</span></div>
         
 
          </div>

@@ -60,7 +60,7 @@
   background-color: white;
   box-shadow: 5px 5px 5px rgb(247, 246, 244);
   position: relative;
-  margin: 1rem;
+  margin: 1rem 0;
 
 }
 
@@ -374,13 +374,13 @@
   }
 
   .overlay {
-    top: 50px;
+    
     background-color: red;
     position: absolute;
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 
-    top: 9rem;
+   top: 7rem;
     left: 2rem;
     border-radius: 5px;
     display: flex;
@@ -388,21 +388,28 @@
     align-items: center;
 
   }
+  .blogs-icons1 {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 15px;
+  
+  }
 
   .blogs-component-content h1 {
     font-family: Chivo, sans-serif;
-    font-size: 18px;
+    font-size: 14px;
 
     font-weight: 600;
-    line-height: 28.8px;
+    line-height: 1.5;
     color: rgb(45, 45, 45);
   }
 
   .blogs-component-content p {
     font-family: "Open Sans", sans-serif;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
-    line-height: 22.4px;
+    line-height: 1.5;
     color: rgb(103, 94, 94);
   }
 
@@ -410,8 +417,109 @@
     display: flex;
     flex-direction: column;
   }
+.bloglist-content p{
 
+  font-size: 15px;
+}
   .blogs-image {
     display: none;
+  }
+
+  /* second section styles */
+  .bloglist-content2-content {
+    background-color: rgb(251, 249, 255);
+    margin-top: 70px;
+  }
+  
+  .bloglist-content2-content h1 {
+    padding: 5px;
+    font-size: 19px;
+  }
+  
+  .blogs-para:hover {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .blogs-feeds {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 7px;
+    /* padding: 10px; */
+  }
+  
+  .blogs-para {
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: rgb(0, 0, 0);
+  }
+  
+  .blogs-date {
+    font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.2;
+    color: rgb(128, 128, 128);
+  }
+  
+  .bloglist-content2-content-insta-feed {
+    margin-top: 1rem;
+  
+  }
+  
+  .bloglist-content2-content-insta-feed12 h1 {
+    font-family: Chivo, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+    color: rgb(45, 45, 45);
+    padding: 5px;
+  }
+  
+  .bloglist-content2-insta-flex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  
+  }
+  
+  .blogs-feeds-insta-feed img {
+    width: 100%;
+  }
+  
+  
+  
+  .newsletter {
+    padding: 5px;
+    background-color: rgb(251, 249, 255);
+    margin-top: 1rem;
+  
+  }
+  
+  .bloglist-content2-content-insta-feed h1 {
+    font-family: Chivo, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgb(45, 45, 45);
+  }
+  
+  .newsletter input {
+    width: 100%;
+    padding: 10px;
+    border: 0.5px solid rgb(185, 185, 185);
+    background-color: white;
+    outline: none;
+  }
+  
+  .newsletter-button button {
+    width: 100%;
+    border: 1px solid red;
+    margin-top: 10px;
+    padding: 10px 10px;
+    color: red;
   }
 }
